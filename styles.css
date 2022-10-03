@@ -1,0 +1,116 @@
+
+  #jumbo{
+    height:50vh;
+    background-image:url("https://user-images.githubusercontent.com/106655720/193433836-71619c1a-6579-4c19-aa2e-3f1b1210fff9.jpg");
+    object-fit:contain;
+    filter:contrast(60%);
+ 
+
+}
+.jumbo-cont{
+    padding-top:50px;
+}
+.jumbo-txt{
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
+    font-family:"quantum", sans-serif;
+    color:white;
+    font-weight:900;
+}
+.subtxt{
+    font-size:15px;
+    color:white;
+    font-weight:bold;
+}
+.head{
+  font-weight:bold;
+  font-size:15px;
+  font-family:"quantum", sans-serif;
+}
+.body-text{
+  font-weight:100;
+  font-size:12px;
+  font-family:"quantum", sans-serif;
+
+}
+.mybtn{
+  width:120px;
+  height:50px;
+  color:white;
+  background-color:black;
+  border-style:none;
+}
+#first{
+  margin-top:50px;
+}
+#second{
+margin-top:50px;
+}
+
+.blog-cont{
+width:auto;
+height:100vh;
+border-radius:20px;
+
+box-shadow: 0px 4px 8px 0px rgba(35, 3, 182, 0.2);
+}
+.blog-prwviw{
+margin-top:20px;
+
+}
+.blog-name{
+padding-left:10px;
+font-weight:bold;
+padding-top:5px;
+}
+#last{
+margin-top:50px;
+}
+.blog-pic{
+height:60px;
+width:60px;
+border-radius:50%;
+object-fit:cover;
+}
+.a-btn{
+height:30px;
+width:90px;
+color:azure;
+background-color: rgb(221, 216, 216);
+float:right;
+border-style:none;
+}
+.blog-item{
+float:left;
+}
+#img-x1{
+background-image: url("https://user-images.githubusercontent.com/106655720/193602093-f3db9d4c-204a-4fcd-bfbc-dc9a3f7b7e3d.jpg");
+object-fit: cover;
+height:50%;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+}
+
+#img-x{
+background-image: url("https://user-images.githubusercontent.com/106655720/193602103-f44748f4-f896-4188-a671-1bb9c20a28a6.jpg");
+object-fit: cover;
+height:50%;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+}
+.col-12{
+  margin:0 auto;
+  width:25%;
+  padding-top:20px;
+}
+
+hr{
+width:70%;
+}
+
+@media(max-width:767px){
+.offbar{
+  display:none;
+}
+}
