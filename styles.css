@@ -50,7 +50,7 @@ margin-top:50px;
 
 .blog-cont{
 width:auto;
-height:100vh;
+height:60vh;
 border-radius:20px;
 
 box-shadow: 0px 4px 8px 0px rgba(35, 3, 182, 0.2);
@@ -84,7 +84,7 @@ border-style:none;
 .blog-item{
 float:left;
 }
-#img-x1{
+#img-xx{
 background-image: url("https://user-images.githubusercontent.com/106655720/193602093-f3db9d4c-204a-4fcd-bfbc-dc9a3f7b7e3d.jpg");
 object-fit: cover;
 height:50%;
@@ -92,7 +92,7 @@ border-top-left-radius:20px;
 border-top-right-radius:20px;
 }
 
-#img-x{
+#img-xv{
 background-image: url("https://user-images.githubusercontent.com/106655720/193602103-f44748f4-f896-4188-a671-1bb9c20a28a6.jpg");
 object-fit: cover;
 height:50%;
@@ -109,8 +109,4 @@ hr{
 width:70%;
 }
 
-@media(max-width:767px){
-.offbar{
-  display:none;
-}
-}
+
